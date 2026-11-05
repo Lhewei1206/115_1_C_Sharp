@@ -1,0 +1,159 @@
+﻿namespace Fuel_Economy
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 釋放使用中的資源。
+        /// </summary>
+        /// <param name="disposing">若應釋放受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 設計工具支援所需的方法，請勿使用程式碼編輯器修改此方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.milesPromptLabel = new System.Windows.Forms.Label();
+            this.gallonsPromptLabel = new System.Windows.Forms.Label();
+            this.milesTextBox = new System.Windows.Forms.TextBox();
+            this.gallonsTextBox = new System.Windows.Forms.TextBox();
+            this.outputDescriptionLabel = new System.Windows.Forms.Label();
+            this.mpgLabel = new System.Windows.Forms.Label();
+            this.calculateButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // milesPromptLabel
+            // 
+            this.milesPromptLabel.AutoSize = true;
+            this.milesPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.milesPromptLabel.Location = new System.Drawing.Point(89, 21);
+            this.milesPromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.milesPromptLabel.Name = "milesPromptLabel";
+            this.milesPromptLabel.Size = new System.Drawing.Size(351, 40);
+            this.milesPromptLabel.TabIndex = 0;
+            this.milesPromptLabel.Text = "請輸入行駛的公里數:";
+            // 
+            // gallonsPromptLabel
+            // 
+            this.gallonsPromptLabel.AutoSize = true;
+            this.gallonsPromptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.gallonsPromptLabel.Location = new System.Drawing.Point(89, 87);
+            this.gallonsPromptLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.gallonsPromptLabel.Name = "gallonsPromptLabel";
+            this.gallonsPromptLabel.Size = new System.Drawing.Size(351, 40);
+            this.gallonsPromptLabel.TabIndex = 1;
+            this.gallonsPromptLabel.Text = "請輸入使用的公升數:";
+            // 
+            // milesTextBox
+            // 
+            this.milesTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.milesTextBox.Location = new System.Drawing.Point(524, 13);
+            this.milesTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.milesTextBox.Name = "milesTextBox";
+            this.milesTextBox.Size = new System.Drawing.Size(223, 48);
+            this.milesTextBox.TabIndex = 2;
+            // 
+            // gallonsTextBox
+            // 
+            this.gallonsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.gallonsTextBox.Location = new System.Drawing.Point(524, 79);
+            this.gallonsTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.gallonsTextBox.Name = "gallonsTextBox";
+            this.gallonsTextBox.Size = new System.Drawing.Size(223, 48);
+            this.gallonsTextBox.TabIndex = 3;
+            // 
+            // outputDescriptionLabel
+            // 
+            this.outputDescriptionLabel.AutoSize = true;
+            this.outputDescriptionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.outputDescriptionLabel.Location = new System.Drawing.Point(32, 159);
+            this.outputDescriptionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.outputDescriptionLabel.Name = "outputDescriptionLabel";
+            this.outputDescriptionLabel.Size = new System.Drawing.Size(467, 40);
+            this.outputDescriptionLabel.TabIndex = 4;
+            this.outputDescriptionLabel.Text = "您的汽車油耗率 (公里/公升):";
+            // 
+            // mpgLabel
+            // 
+            this.mpgLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.mpgLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.mpgLabel.Location = new System.Drawing.Point(524, 148);
+            this.mpgLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.mpgLabel.Name = "mpgLabel";
+            this.mpgLabel.Size = new System.Drawing.Size(224, 62);
+            this.mpgLabel.TabIndex = 5;
+            this.mpgLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // calculateButton
+            // 
+            this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.calculateButton.Location = new System.Drawing.Point(140, 237);
+            this.calculateButton.Margin = new System.Windows.Forms.Padding(4);
+            this.calculateButton.Name = "calculateButton";
+            this.calculateButton.Size = new System.Drawing.Size(225, 62);
+            this.calculateButton.TabIndex = 6;
+            this.calculateButton.Text = "計算油耗";
+            this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
+            // 
+            // exitButton
+            // 
+            this.exitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.exitButton.Location = new System.Drawing.Point(449, 237);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(4);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(225, 62);
+            this.exitButton.TabIndex = 7;
+            this.exitButton.Text = "結束";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(837, 332);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.calculateButton);
+            this.Controls.Add(this.mpgLabel);
+            this.Controls.Add(this.outputDescriptionLabel);
+            this.Controls.Add(this.gallonsTextBox);
+            this.Controls.Add(this.milesTextBox);
+            this.Controls.Add(this.gallonsPromptLabel);
+            this.Controls.Add(this.milesPromptLabel);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Form1";
+            this.Text = "燃油經濟性";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label milesPromptLabel;
+        private System.Windows.Forms.Label gallonsPromptLabel;
+        private System.Windows.Forms.TextBox milesTextBox;
+        private System.Windows.Forms.TextBox gallonsTextBox;
+        private System.Windows.Forms.Label outputDescriptionLabel;
+        private System.Windows.Forms.Label mpgLabel;
+        private System.Windows.Forms.Button calculateButton;
+        private System.Windows.Forms.Button exitButton;
+    }
+}
+
