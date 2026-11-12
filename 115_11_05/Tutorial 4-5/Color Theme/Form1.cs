@@ -19,22 +19,22 @@ namespace Color_Theme
 
         private void yellowRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-           
+            this.BackColor= Color.Yellow;
         }
 
         private void redRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            
+            this.BackColor = Color.Red;
         }
 
         private void whiteRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            
+            this.BackColor = Color.White;
         }
 
         private void normalRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            
+            this.BackColor = Color.LightGray;
         }
 
         private void exitButton_Click(object sender, EventArgs e)
